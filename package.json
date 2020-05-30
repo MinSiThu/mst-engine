@@ -1,0 +1,13 @@
+{
+  "name": "mst-engine",
+  "version": "1.0.0",
+  "description": "Mst Engine Website",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
