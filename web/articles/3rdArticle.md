@@ -1,5 +1,5 @@
 ---
-title: My third article testing
+title: My third article testing with name change
 description: This is a little bit too long descripton. Check it will be on wide view. And this became longer for my website. Check it on website.
 author: Min Si Thu
 type: article
