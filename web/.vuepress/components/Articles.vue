@@ -2,9 +2,9 @@
   <div class="grid">
         <router-link v-for="page in pages" class="article" :to="page.path">
             <time>
-              <span class="day">31</span>
-              <span class="month">May</span>
-              <span class="year">2020</span>
+              <span class="day">{{new Date(page.frontmatter.created_time).getDay()}}</span>
+              <span class="month">{{monthNames[new Date(page.frontmatter.created_time).getMonth()]}}</span>
+              <span class="year">{{new Date(page.frontmatter.created_time).getFullYear()}}</span>
             </time>
             
             <img :src="page.frontmatter.cover"/>
@@ -21,13 +21,15 @@
 export default {
   data() {
     return {
-      pages: []
+      pages: [],
+      monthNames:["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ]
     }
   },
   mounted() {
     this.$site.pages.forEach(page => {
       if (page.frontmatter.type === 'article') {
-        console.log(page);
         this.pages.push(page)
       }
     })
