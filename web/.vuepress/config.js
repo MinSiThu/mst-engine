@@ -7,7 +7,8 @@ module.exports = {
           title: 'Reactive Programming',   // required
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
-            ["http://localhost:8080/articles/ReactiveProgramming/Introduction.html","Introduction"]
+            ["/articles/ReactiveProgramming/HigherOrderFunction.html","Higher Order Function"],
+            ["/articles/ReactiveProgramming/Introduction.html","Introduction"],
           ]
         },
       ]
