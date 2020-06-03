@@ -51,5 +51,5 @@ console.log(reduce([1, 2, 3, 4], (accumulator, b) => accumulator + b, 0)); // �
 ဒါက higher order function တွေမှာ function ကို တခုကို argument ပေးလိုက်တဲ့အတွက် abstract level တခုအနေနဲ့ သုံးလို့ရတဲ့ပုံပါ။
 function တခုကို return ပြန်ပေးလို့ဖြစ်ပေါ်လာတဲ့ closure ဆိုတာလည်း ရှိပါသေးတယ်။
 
-## References
+**References**
 [Eloquent JavaScript](https://eloquentjavascript.net/05_higher_order.html)

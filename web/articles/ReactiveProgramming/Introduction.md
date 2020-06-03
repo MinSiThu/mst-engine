@@ -52,7 +52,7 @@ onValue ထဲကိုထည့်တဲ့ function ထဲမှာ ကြိ�
 
 terminology အချို့သိထားသင့်ပါတယ်။ ပထမဆုံးဖန်တီးထားတဲ့ stream ကို observable လို့ခေါ်ပါတယ်။ ဒုတိယ stream ဖြစ်တဲ့ toDouble ကို ဖန်တီးဖို့ map function ကို သုံးရပါတယ်။ ဒီ map function ကို operator လို့ခေါ်ပါတယ်။ operator တွေအများကြီးရှိပါတယ်။ 
 
-## References
+**References**
 
 [https://kefirjs.github.io/kefir/](https://kefirjs.github.io/kefir/)
 [Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)

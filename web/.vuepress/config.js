@@ -8,6 +8,7 @@ module.exports = {
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
             ["/articles/ReactiveProgramming/HigherOrderFunction.html","Higher Order Function"],
+            ["/articles/ReactiveProgramming/Closure.html","Closure"],
             ["/articles/ReactiveProgramming/Introduction.html","Introduction"],
           ]
         },
