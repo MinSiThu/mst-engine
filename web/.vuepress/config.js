@@ -9,6 +9,7 @@ module.exports = {
           children: [
             ["/articles/ReactiveProgramming/HigherOrderFunction.html","Higher Order Function"],
             ["/articles/ReactiveProgramming/Closure.html","Closure"],
+            ["/articles/ReactiveProgramming/Compose.html","Compose"],
             ["/articles/ReactiveProgramming/Introduction.html","Introduction"],
           ]
         },
