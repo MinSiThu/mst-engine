@@ -13,6 +13,13 @@ module.exports = {
             ["/articles/ReactiveProgramming/Introduction.html","Introduction"],
           ]
         },
+        {
+          title: 'Design Pattern',   // required
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            ["/articles/DesignPatterns/AdapterPattern.html","Adapter Pattern"],
+          ]
+        },
       ]
     },
     plugins: [
